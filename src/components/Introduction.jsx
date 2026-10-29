@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/profile_photo.png'
+
 function Introduction() {
     return (
     <section id="about" className="container hero-section">
@@ -6,7 +8,7 @@ function Introduction() {
         {/* Columna Izquierda: Imagen del Avatar (Responsiva) */}
         <div className="col-12 col-md-5 text-center mb-4 mb-md-0">
           <img 
-            src="../assets/profile_photo.png" /* Reemplaza con la ruta de tu imagen de la desarrolladora con laptop */
+            src={profilePhoto} /* Reemplaza con la ruta de tu imagen de la desarrolladora con laptop */
             alt="Emmanuel profile photo" 
             className="img-fluid"
           />
