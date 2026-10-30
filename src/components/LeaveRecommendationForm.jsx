@@ -30,7 +30,7 @@ const LeaveRecommendationForm = ({ onAddRecommendation }) => {
       
       {submitted && (
         <div className="alert alert-success text-center" role="alert">
-          ¡Gracias! Tu recomendación ha sido agregada con éxito.
+          ¡Thanks! Your recommendation has been added successfully.
         </div>
       )}
 
