@@ -7,12 +7,12 @@ const ProjectsSection = () => {
     {
       title: 'VisionVial — Hackathon (1st Place)',
       description: 'Urban mobility platform built with FastAPI, React, Django ORM, and MySQL/MariaDB. Contributed to project documentation.',
-      link: 'https://github.com/Emmanuel-ui-oss/hackaton' // Reemplaza o ajusta con tu enlace real si lo deseas
+      link: 'https://github.com/Emmanuel-ui-oss/hackaton'
     },
     {
       title: 'Tienda Evelyn',
       description: 'Business management system designed for inventory control, sales tracking, supplier management, and automated reporting.',
-      link: '' // Si no tienes enlace aún, déjalo vacío o bórralo y funcionará sin problemas
+      link: '' 
     },
     {
       title: 'Python Video Game',

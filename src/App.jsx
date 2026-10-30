@@ -10,12 +10,17 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-      <Header/>
-      <Introduction/>
-      <SkillsSection/>
-      <ProjectsSection/>
-      <RecommendationsSection/>
-      <Footer/>
+      <Header />
+      
+      {/* Contenedor de Bootstrap para centrar y dar márgenes al contenido principal */}
+      <main className="container my-4">
+        <Introduction />
+        <SkillsSection />
+        <ProjectsSection />
+        <RecommendationsSection />
+      </main>
+
+      <Footer />
     </>
   )
 }
